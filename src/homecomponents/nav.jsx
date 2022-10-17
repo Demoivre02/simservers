@@ -1,14 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import Button from '../common/button';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 function Nav(props) {
     return (
         <div style={{background: "linear-gradient(178.18deg, #5533FF 38.36%, #4B6DDB 102.8%)"}}>
         <div className='flex justify-between w-[90%] m-auto items-center'>
             <ul className="flex  w-[60%] justify-between" >
+                <Link to="/">   
                     <img className='' src="images/logo.png" alt="logo" />
+                </Link>
                     <div className=' flex w-2/5 ml-16  justify-between  items-center'>
                         <Link to="/about">
                             <li className="cursor-pointer text-white text-xl hover:text-2xl transition-all font-medium">About</li>

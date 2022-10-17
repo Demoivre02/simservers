@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Dashboardtopnav(props) {
     return (
@@ -8,9 +8,11 @@ function Dashboardtopnav(props) {
             <div className='  flex justify-between items-center'>
                 <div className='ml-16'>
                     <ul className='flex justify-between'>
-                        <li className='mr-4 font-medium text-sm text-[#171F34]'>About Us</li>
-                        <li className='ml-4 font-medium text-sm text-[#171F34]'>News</li>
-                        <li className='ml-4 font-medium text-sm text-[#171F34]'>User Policy</li>
+                        <Link to="/about">
+                             <li className='mr-4 font-medium text-sm hover:text-base transition-all text-[#171F34]'>About Us</li>
+                        </Link>
+                        <li className='ml-4 font-medium hover:text-base transition-all text-sm text-[#171F34]'>News</li>
+                        <li className='ml-4 font-medium hover:text-base transition-all text-sm text-[#171F34]'>User Policy</li>
                     </ul>
                 </div>
                 <div className='flex justify-between  mr-32 '>

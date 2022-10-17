@@ -9,7 +9,7 @@ function Features(props) {
                 <h2 className='text-4xl font-bold mt-12 text-center'>Why SIMSERVERS.IO ?</h2>
             </div>
             <div className='mt-8 mb-2'>
-                <p className='w-[60%] leading-normal text-center m-auto text-[#949BA5] text-xl'>SIMSERVERS.IO is an automation
+                <p className='w-[60%] leading-normal tracking-normal text-center m-auto text-[#949BA5] text-xl'>SIMSERVERS.IO is an automation
                  service platform designed to help you dispense airtime and data automatically from your
                   sim to your customers easily and seamlessly using our structured Application Programming 
                   Interface (APIs).</p>

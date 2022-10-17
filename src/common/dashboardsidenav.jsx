@@ -8,7 +8,9 @@ function Dashboardsidenav(props) {
         <div >
             <div className=' bg-[#171F34]  w-[270px] h-screen fixed top-0 left-0 z-[1] top-0 left-0 rifgt-0'>
                 <div className='mb-8 mr-4'>
-                    <img src="images/logo.png" alt="" />
+                    <Link to="/">
+                        <img src="images/logo.png" alt="" />
+                    </Link>
                 </div>
                 <div className='flex justify-center mt-4 mb-16 items-center'>
                     <div className='p-6 mr-2 rounded-full bg-[#D9D9D9]'></div>
