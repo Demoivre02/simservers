@@ -3,7 +3,7 @@ import React from 'react';
 function Comps({text,parag,style,icon}) {
     return (
         <>
-        <div className='flex ml-12 mb-4 mt-2 flex-col'>
+        <div className='flex ml-12 mb-4 mt-8 flex-col'>
             <div style={style} className="flex rounded-lg max-w-[70px] item-center text-center p-4 items-center">
                 <h1>{icon}</h1>
             </div>

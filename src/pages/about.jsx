@@ -9,7 +9,7 @@ function About(props) {
             <div>
                 <Nav/>
             </div>
-            <div className='w-[60%] m-auto mt-16 mb-12'>
+            <div className='md:w-[60%] w-[80%] m-auto mt-16 mb-12'>
                 <div>
                     <p className='text-xl leading-normal'>
                         <span className='text-xl font-medium'>SIMSERVERS.IO</span>is a sub-brand to  <span>CDLP HUB LTD</span> ,
